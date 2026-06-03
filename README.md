@@ -13,13 +13,18 @@ Core analysis code written by **Tameem M. Alozzi**. Valuable assistance and cont
 ├── SN_Neurophys_Part_2_preoperative_clinical_corr_stats.py  # MDS-UPDRS-III Clinical correlation and statistics
 ├── requirements.txt                                         # Python dependencies
 └── data/                                                    # Local/private data, ignored by git
-    ├── spikes_neurons/                                      # Spike-sorted output folders (tridesclous DataIO format)
-    │   └── <patient_id>/
-    │       └── <recording>/
-    ├── LFPs/                                                # Raw LFP recordings in Spike2 .smr format
-    │   └── <patient_id>/
-    │       └── <recording>.smr
-    └── MER_features_coords_mapper_with_names_distances.csv  #MNI coordinates of recording locations and respective atlas-based annotations
+|   ├── spikes_neurons/                                      # Spike-sorted output folders (tridesclous DataIO format)
+|   │   └── <patient_id>/
+|   │       └── <recording>/
+|   ├── LFPs/                                                # Raw LFP recordings in Spike2 .smr format
+|   │   └── <patient_id>/
+|   │       └── <recording>.smr
+|   └── MER_features_coords_mapper_with_names_distances.csv  #MNI coordinates of recording locations and respective atlas-based annotations
+│  
+└── results/                                                 # Local/generated outputs
+    ├── figures/
+    └── statistics/
+
 ```
 
 ## Data Placement
