@@ -2,7 +2,10 @@
 Python scripts for microelectrode recording (MER) analyses of substantia nigra neurophysiology in Parkinson's disease during deep brain stimulation surgery.
 
 ## Overview
-This repository contains the core pipeline used to preprocess, filter, and analyze intraoperative electrophysiological data. This repository contains analysis scripts without patient-level data.
+This repository contains the core pipeline used to preprocess, filter, and analyze intraoperative electrophysiological data. 
+
+This repository contains analysis scripts without patient-level data.
+
 Core analysis code written by **Tameem M. Alozzi**. Valuable assistance and contributions were provided by co-authors **Farzin Negahbani** and **Enrico Ferrea**.
 
 ## Repository Layout
