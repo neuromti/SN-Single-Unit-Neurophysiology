@@ -7,6 +7,7 @@ Core analysis code written by **Tameem M. Alozzi**. Valuable assistance and cont
 
 ## Repository Layout
 
+.
 ├── SN_Neurophys_Part_1_preprocess_analysis.py   # Preprocessing and electrophysiological, spatial, waveform morphology analyses, and statistics
 ├── SN_Neurophys_Part_2_preoperative_clinical_corr_stats.py  # MDS-UPDRS-III Clinical correlation and statistics
 ├── requirements.txt                              # Python dependencies
