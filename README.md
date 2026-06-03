@@ -7,18 +7,20 @@ Core analysis code written by **Tameem M. Alozzi**. Valuable assistance and cont
 
 ## Repository Layout
 
+```text
 .
-├── SN_Neurophys_Part_1_preprocess_analysis.py   # Preprocessing and electrophysiological, spatial, waveform morphology analyses, and statistics
+├── SN_Neurophys_Part_1_preprocess_analysis.py               # Preprocessing and electrophysiological, spatial, waveform morphology analyses, and statistics
 ├── SN_Neurophys_Part_2_preoperative_clinical_corr_stats.py  # MDS-UPDRS-III Clinical correlation and statistics
-├── requirements.txt                              # Python dependencies
-└── data/                                         # Local/private data, ignored by git
-    ├── spikes_neurons/                           # Spike-sorted output folders (tridesclous DataIO format)
+├── requirements.txt                                         # Python dependencies
+└── data/                                                    # Local/private data, ignored by git
+    ├── spikes_neurons/                                      # Spike-sorted output folders (tridesclous DataIO format)
     │   └── <patient_id>/
     │       └── <recording>/
-    ├── LFPs/                                     # Raw LFP recordings in Spike2 .smr format
+    ├── LFPs/                                                # Raw LFP recordings in Spike2 .smr format
     │   └── <patient_id>/
     │       └── <recording>.smr
-    └── MER_features_coords_mapper_with_names_distances.csv  #MNI coordinates of recording locations and respective atlas-based annotations 
+    └── MER_features_coords_mapper_with_names_distances.csv  #MNI coordinates of recording locations and respective atlas-based annotations
+```
 
 ## Data Placement
 
