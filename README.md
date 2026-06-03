@@ -37,8 +37,8 @@ Part 2 additionally requires a preoperative clinical scores file (MDS-UPDRS III)
 ## Running
 
 Install the Python dependencies listed in requirements.txt, then run the scripts in order:
-python SN_Neurophys_Part_1_preprocess_analysis.py
-python SN_Neurophys_Part_2_preoperative_clinical_corr_stats.py
+python **SN_Neurophys_Part_1_preprocess_analysis.py**
+python **SN_Neurophys_Part_2_preoperative_clinical_corr_stats.py**
 
 Both scripts are organized into clearly labelled **#%%** sections and can also be run interactively cell-by-cell in an IDE such as Spyder or VS Code.
 
