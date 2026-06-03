@@ -1,0 +1,23 @@
+## Dependencies
+
+The script requires Python 3.7 and the following packages:
+
+| Package | Purpose |
+|---|---|
+| `neo` | Loading Spike2 `.smr` electrophysiology files |
+| `tridesclous` | Reading spike-sorted data (DataIO) |
+| `mne` | Signal filtering |
+| `numpy`, `scipy` | Numerical computation and signal processing |
+| `pandas` | Data wrangling |
+| `scikit-learn` | K-Means, DBSCAN, PCA, t-SNE, scaling |
+| `openTSNE` | High-performance t-SNE projection |
+| `kneed` | Elbow/kneedle detection for optimal K |
+| `matplotlib`, `seaborn` | Static plotting |
+| `plotly` | Interactive visualizations |
+| `nibabel` | Neuroimaging file handling (MNI coordinates) |
+| `pyvista` | 3D visualization |
+| `mpld3` | Interactive matplotlib figures |
+
+Install all dependencies via pip.
+
+> **Note:** `tridesclous` may require a separate installation step. See [tridesclous documentation](https://tridesclous.readthedocs.io/) for details.
